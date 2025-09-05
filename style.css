@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+nav {
+  width: 1170px;
+  height: 49px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  margin-top: 48px;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+li {
+  font-size: 18px;
+  font-weight: medium;
+}
+.home {
+  font-weight: 700;
+}
+.signUp {
+  width: 119px;
+  height: 49px;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.logIn {
+  width: 60px;
+  height: 29px;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+main {
+  width: 1170px;
+  margin: 0 auto;
+}
+.hero-h1 {
+  font-size: 70px;
+  font-weight: 850;
+  color: #0b1b35;
+  width: 650px;
+}
+.heroSection {
+  display: flex;
+}
+.heroImg {
+  display: flex;
+  position: relative;
+}
+.heroImgDate {
+  position: absolute;
+  top: 85px;
+  left: -150px;
+  z-index: -2;
+}
+.heroImgGroup {
+  position: absolute;
+  top: 100px;
+  z-index: -1;
+  left: -20px;
+}
+.heroContent {
+  margin-top: 114px;
+}
+.hero-p {
+  margin-top: 35px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.hero-get-start {
+  width: 162px;
+  height: 49px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff6600;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.hero-learn-more {
+  width: 189px;
+  height: 60px;
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.heroBtns {
+  display: flex;
+  margin-top: 66px;
+  gap: 28px;
+  align-items: center;
+}
+.servicesSection {
+  width: 1170px;
+  display: flex;
+  flex-direction: column;
+}
+.serviceText {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 19px;
+}
+.service-p {
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: auto;
+  margin-left: auto;
+  color: #8a898e;
+}
+.service-h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-right: auto;
+  margin-left: auto;
+  color: #0b1b35;
+}
+.servicesCards {
+  display: flex;
+  gap: 57px;
+}
+.serviceCard {
+  width: 352px;
+  height: 508px;
+  border-radius: 28px;
+  box-shadow: 0 0 25px 4px rgb(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 108px;
+}
+.iconBox {
+  width: 77px;
+  height: 77px;
+  margin-top: 30px;
+}
+.serviceCard-h1 {
+  margin-top: 41px;
+}
+.serviceCard-p {
+  margin-top: 32px;
+  flex: 1;
+  width: 270px;
+  height: 187px;
+}
+.serviceCardBtn {
+  margin-bottom: 45px;
+  width: 162px;
+  height: 49px;
+  background-color: #ff6600;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+}
+.blockSection {
+  width: 1170px;
+  display: flex;
+  margin-top: 181px;
+  gap: 160px;
+}
+.blockText {
+  width: 324px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.block-h1 {
+  width: 250px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #1e0e62;
+  line-height: 32px;
+}
+.block-p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #15143966;
+  width: 350px;
+  line-height: 26px;
+}
+.block-btn {
+  margin-top: 110px;
+  width: 133px;
+  height: 49px;
+  border-radius: 40px;
+  background-color: white;
+  border: solid 2px #4d4b7466;
+  color: #1e0e62;
+  font-size: 16px;
+  font-weight: 500;
+}
+.clientThinkSection {
+  width: 970px;
+  height: 682px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 146px;
+}
+.thinks-box {
+  width: 970px;
+  display: flex;
+  justify-content: space-between;
+}
+.user {
+  width: 470px;
+  display: flex;
+  gap: 30px;
+  margin-top: 36px;
+}
+.user-text-h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0b1b35;
+  width: 320px;
+}
+.user-text-p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #cecdd3;
+  margin-top: 15px;
+}
