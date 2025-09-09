@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  text-decoration: none;
 }
 body {
   overflow-x: hidden;
@@ -332,4 +333,86 @@ main {
   display: flex;
   gap: 30px;
   margin-top: 53px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 1170px;
+  margin-top: 110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footEmail {
+  width: 1170px;
+  display: flex;
+  margin-top: 101px;
+  gap: 49px;
+}
+.emailImg {
+  width: 421px;
+  height: 367px;
+}
+.emailText {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  row-gap: 23px;
+  margin-top: 23px;
+}
+.footInp {
+  height: 77px;
+  border-radius: 49px;
+  border: 1px rgb(194, 191, 191) solid;
+  background-color: white;
+  padding-left: 67px;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  box-shadow: 0 15px 45px 8px rgb(201, 199, 199);
+}
+.footBtn {
+  background-color: rgba(255, 102, 0, 1);
+  height: 49px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 51px;
+  color: white;
+}
+.footLinks {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footLogo {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  width: 570px;
+}
+.footLogo img {
+  width: 111px;
+}
+.footLink ul {
+  width: 475px;
+  height: 26px;
+  display: flex;
+  gap: 39px;
+}
+.footLinkUl li {
+  font-size: 16px;
+  font-weight: 400;
+}
+footer hr {
+  margin-top: 31px;
+  color: rgba(235, 234, 237, 1);
+  height: 2px;
+  opacity: 50%;
+}
+.lastText {
+  margin-top: 40px;
+  color: rgba(138, 137, 142, 1);
+  font-size: 16px;
+  font-weight: 400;
 }
