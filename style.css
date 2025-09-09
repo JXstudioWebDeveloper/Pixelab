@@ -246,3 +246,90 @@ main {
   color: #cecdd3;
   margin-top: 15px;
 }
+.ourTeam {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.teamText {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  row-gap: 19px;
+}
+.team-p {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 700;
+  color: #8a898e;
+}
+.team-h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin: auto;
+  color: #0b1b35;
+}
+.teamCardBox {
+  width: 370px;
+  height: 370px;
+  border: solid rgba(235, 234, 237, 1) 2px;
+}
+.teamCardImg {
+  width: 370px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 28px;
+  border: solid rgba(235, 234, 237, 1) 2px;
+}
+.teamCardLinkBox {
+  width: 370px;
+  height: 60px;
+  border: solid rgba(235, 234, 237, 1) 2px;
+  display: flex;
+  align-items: center;
+}
+.teamTr {
+  width: 123px;
+  border: solid rgba(235, 234, 237, 1) 2px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teamFk {
+  width: 123px;
+  border: solid rgba(235, 234, 237, 1) red 2px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teamFa {
+  width: 123px;
+  height: 60px;
+  border: solid rgba(235, 234, 237, 1) 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teamName {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1e0e62;
+}
+.teamJob {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(138, 137, 142, 1);
+}
+.teamCards {
+  display: flex;
+  gap: 30px;
+  margin-top: 53px;
+}
